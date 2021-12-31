@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-{% import 'bootstrap/wtf.html' as wtf %}
 
 {% block user_app_content %}
     <div class="row">
@@ -7,15 +6,17 @@
             <h1>{{ title }}</h1>
         </div>
     </div>
-    <div class="row">
+    <div class="row text-center">
         <div class="col-sm-4">
-            <!-- Empty form -->
-        </div>
-        <div class="col-sm-4 my-form">
-            {{ wtf.quick_form(form) }}
+            <!-- Empty column -->
         </div>
         <div class="col-sm-4">
-            <!-- Empty form -->
+            <p>
+                Return to <a href="{{ url_for('profile') }}">profile page</a>.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <!-- Empty column -->
         </div>
     </div>
 {% endblock %}
