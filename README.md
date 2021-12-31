@@ -30,14 +30,15 @@ This is a very simple dashboard in flask. Basically, the content seen by an anon
     ```
 * Create and activate a virtual environment:
     ```python
-    virtualenv venv
-    source venv/bin/activate
+    $ virtualenv venv
+    $ source venv/bin/activate
 
-    # or mkvirtualenv venv
+    # or (if you prefer using virtualenvwrapper)
+    # (venv)$ mkvirtualenv venv
     ```
 * Install dependencies:
     ```python
-    pip3 install -r requirements.txt
+    (venv)$ pip3 install -r requirements.txt
     ```
 * Needed environment variables:
   * Create a file called `.env` in the root directory of the project.
