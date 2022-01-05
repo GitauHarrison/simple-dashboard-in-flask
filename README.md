@@ -12,9 +12,9 @@ This is a very simple dashboard in flask. Basically, the content seen by an anon
 
 * Flask
 * Python
-* Flask slqAlchemy
+* Flask SQLAlchemy
 * Flask Bootstrap
-* Flask migrate
+* Flask Migrate
 * Flask-Login
 * Flask-WTF
 
@@ -34,9 +34,9 @@ This is a very simple dashboard in flask. Basically, the content seen by an anon
     $ source venv/bin/activate
 
     # or (if you prefer using virtualenvwrapper)
-    # (venv)$ mkvirtualenv venv
+    # $ mkvirtualenv venv
     ```
-* Install dependencies:
+* Install dependencies within the virtual environment:
     ```python
     (venv)$ pip3 install -r requirements.txt
     ```
