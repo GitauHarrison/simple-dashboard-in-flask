@@ -4,6 +4,14 @@ This is a very simple dashboard in flask. Basically, the content seen by an anon
 
 ![Flask Dashboard](/app/static/images/flask_dashboard.gif)
 
+Check out the other sample dashboards:
+
+- [x] [Custom dashboard](https://github.com/GitauHarrison/simple-dashboard-in-flask)  (this repo) &#10004;
+- [x] [Scrollable sidebar dashboard](https://github.com/GitauHarrison/scrollable-sidebar-dashboard) &#10004;
+- [x] [Fixed sidebar dashboard](https://github.com/GitauHarrison/fixed-sidebar-dashboard) &#10004;
+- [x] [Overlay fixed sidebar dashboard](https://github.com/GitauHarrison/overlay-fixed-sidebar-dashboard)  &#10004;
+- [x] [Partially collapsible sidebar dashboard](https://github.com/GitauHarrison/partially-collapsible-sidebar-dashboard) &#10004;
+
 ## Features
 
 - User authentication
